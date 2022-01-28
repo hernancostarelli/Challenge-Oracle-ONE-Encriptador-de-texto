@@ -1,0 +1,66 @@
+div {
+  text-align: center;
+}
+
+body {
+  color: white;
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*overflow: hidden;*/
+}
+
+.label {
+  color: gray;
+  font-size: smaller;
+}
+
+.cajas {
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  /*border: 0;*/
+  border-color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*SCROLLBAR*/
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-button {
+  background-color: navy;
+}
+
+a {
+  text-align: center;
+}
+
+footer {
+  bottom: 0px;
+  width: 98%;
+  position: fixed;
+  /*    border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;*/
+  font-size: x-small;
+  /*background-color: #191919;*/
+  background-color: black;
+  text-align: center;
+  vertical-align: middle;
+  margin: 5px auto;
+  color: white;
+}
+
+.centrar {
+  width: 98%;
+  margin: 0 auto;
+}
